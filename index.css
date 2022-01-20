@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --theme: #FF851B;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    background: linear-gradient(to right, #FF851B, #111111);
+    padding: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+nav li:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+#logo {
+    color: #fff;
+    margin: 0 0 0 auto;
+}
+
+main {
+    text-align: center;
+}
+
+#profile {
+    margin: 33px auto 66px auto;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 133px;
+    border: 6.66px solid rgba(0, 0, 0, .1);
+}
+
+h1 {
+    color: #fff;
+    background-image: url(https://static.cracked.to/images/bg1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.discord {
+    background-color: #FF851B;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14.4px;
+    background: linear-gradient(to right, #FF851B, #111111);
+}
+
+.discord img {
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: -2px;
+}
+
+#products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+}
+
+.product img {
+    width: 266px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+h6 {
+    color: #3b3b3b;
+    font-size: 16.6px;
+    margin: 0;
+}
+
+.info {
+    padding: 10px;
+    display: center;
+    align-items: center;
+    text-align: left;
+}
+
+.product label {
+    margin-left: auto;
+    color: var(--theme);
+    font-weight: bold;
+    font-size: 13.3px;
+}
+
+.product button {
+    background-color: var(--theme);
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    width: 240px;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.product button:hover {
+    cursor: pointer;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-shadow: 0.5px 0.5px 10px !important;
+    animation: hueanim 10s infinite linear !important;
+    color: #0FF !important;
+    font-weight: bold !important;
+}
+
+@keyframes hueanim {
+    0% {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
